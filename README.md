@@ -1,8 +1,16 @@
+# 识别验证码图片
+
 识别验证码图片，输出验证码文字。使用 pytorch 实现。
 
 训练 8 epoch，准确率为 85.42%。
 
 本项目在 Ubuntu 22.04 搭建使用。Windows 用户请自行测试。
+
+<img src="./readme_pic/1.png" width="400">
+<img src="./readme_pic/2.png" width="400">
+<img src="./readme_pic/3.png" width="400">
+<img src="./readme_pic/4.png" width="400">
+
 
 # 数据集如何获取？
 1. 在 setting.py 中根据你自己的情况修改参数，当然保持默认设置也可以~
