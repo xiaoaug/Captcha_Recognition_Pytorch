@@ -6,11 +6,10 @@
 
 本项目在 Ubuntu 22.04 搭建使用。Windows 用户请自行测试。
 
-<img src="./readme_pic/1.png" width="400">
-<img src="./readme_pic/2.png" width="400">
-<img src="./readme_pic/3.png" width="400">
-<img src="./readme_pic/4.png" width="400">
-
+<img src="https://github.com/xiaoaug/Captcha_Recognition_Pytorch/assets/39291338/d23ace40-6a32-4565-8679-6932572bd917" width="300">
+<img src="https://github.com/xiaoaug/Captcha_Recognition_Pytorch/assets/39291338/345b6f5f-7a8f-42f1-a62f-447e02dd1616" width="300">
+<img src="https://github.com/xiaoaug/Captcha_Recognition_Pytorch/assets/39291338/eef149c6-70cb-4442-9bba-2587b8104302" width="300">
+<img src="https://github.com/xiaoaug/Captcha_Recognition_Pytorch/assets/39291338/0807fd33-bb18-40a4-9190-c9818041e57f" width="300">
 
 # 数据集如何获取？
 1. 在 setting.py 中根据你自己的情况修改参数，当然保持默认设置也可以~
