@@ -1,5 +1,5 @@
 from torch import nn
-import setting
+import create_captcha
 
 
 class CNN(nn.Module):
@@ -26,7 +26,7 @@ class CNN(nn.Module):
             nn.BatchNorm2d(512),
             nn.ReLU(),
         )
-        self.fc = nn.Linear(512 * 11 * 6, setting.ALL_CHAR_LEN * setting.CAPTCHA_NUM_LEN)
+        self.fc = nn.Linear(512 * 11 * 6, create_captcha.ALL_CHAR_LEN * create_captcha.CAPTCHA_NUM_LEN)
 
     def forward(self, x):
         x = self.conv(x)
